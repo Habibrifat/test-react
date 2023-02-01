@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #7d8489;
+}
+.loginform {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e9ec;
+}
+.login-container {
+  position: relative;
+  background-color: #fcfcfc;
+  border-top: 5px solid#ee2e24;
+  border-radius: 3px;
+  width: 400px;
+  height: 565px;
+  font-size: 14px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+  padding: 50px 50px 100px;
+  text-align: center;
+}
+.login-container > img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.login-input {
+  position: relative;
+}
+.login-input > span {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  color: #9da6ab;
+  transition: all 0.25s;
+}
+
+.login-input > input {
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #d3dade;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-left: 35px;
+  outline: none;
+  font-size: 14px;
+}
+.checkbox1 {
+  width: 20px;
+  height: 20px;
+}
+.submit-btn {
+  display: inline-block;
+  margin-top: 30px;
+  line-height: 42px;
+  padding: 0 20px;
+  background-color: #39414e;
+  font-size: 18px;
+  width: 100%;
+  color: #fcfcfc;
+  border: 0;
+  border-radius: 3px;
+}
+.submit-btn:hover {
+  background-color: #959191;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+.checkbox {
+  text-align: left;
+  display: block;
+}
+.checkbox > input {
+  padding: 10px;
+}
+.checkbox > label {
+  font-size: 14px;
+  color: #102129;
+  line-height: 24px;
+  margin-left: 5px;
+}
+.alt-login {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+/* .alt-login > span {
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #39414e;
+  color: #ffffff;
+  padding: 5px 10px;
+} */
+.alt-icon {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #39414e;
+  color: #ffffff;
+  padding: 7px;
+  height: auto;
+  width: 32px;
+}
+.alt-icon:hover {
+  background-color: #959191;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+.forgotPassword {
+  font-size: 14px;
+  color: #7d8489;
+  border-bottom: 1px solid #b7bdc1;
+  margin-top: 9px;
+  display: inline-block;
+}
+.login-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  line-height: 70px;
+  border-top: 1px solid #d3dade;
+  font-size: 12px;
+  color: #7d8489;
+}
+@media screen and (max-width: 480px), screen and (max-height: 600px) {
+  .login-container {
+    width: 100%;
+    height: 100%;
+  }
+}
